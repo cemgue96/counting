@@ -9,7 +9,7 @@ test("Counter component works properly", () => {
   const counterValueEl = getByTestId("counter-value");
   const minusTwoButtonEl = getByText("-2", { selector: "button" });
   const minusOneButtonEl = getByText("-1", { selector: "button" });
-  const plusOneButtonEl = getByText("+6", { selector: "button" });
+  const plusOneButtonEl = getByText("+1", { selector: "button" });
   const plusTwoButtonEl = getByText("+2", { selector: "button" });
 
   expect(counterValueEl).toHaveTextContent("0");
